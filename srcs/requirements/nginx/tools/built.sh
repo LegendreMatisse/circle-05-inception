@@ -12,7 +12,7 @@ server {
 	server_name localhost ${DOMAIN} www.${DOMAIN};
 
 	ssl_certificate ${CERTS_}/nginx-selfsigned.crt;
-	ssl_certificate_key ${CERTS_}/nginx-seflsigned.key;
+	ssl_certificate_key ${CERTS_}/nginx-selfsigned.key;
 
 	ssl_protocols TLSv1.2 TLSv1.3;
 
