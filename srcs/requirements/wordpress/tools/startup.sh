@@ -2,7 +2,7 @@
 
 cd /var/www/html
 
-if [ ! -f wp-config.php]; then
+if [ ! -f wp-config.php ]; then
 	wp config create --dbname=${DB_NAME} --dbuser=${ADM_USER} --dbpass=${ADM_PASS} --dbhost=${DB_HOST} --allow-root
 fi
 
