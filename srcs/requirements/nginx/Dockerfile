@@ -9,7 +9,7 @@ ENV CERTS_=$CERTS_
 RUN apt-get update -y && apt-get upgrade -y
 RUN apt-get install -y nginx && apt-get install -y openssl
 
-COPY ./tools/ /
+COPY ./tools/build.sh /build.sh
 
 RUN chmod +x /build.sh
 RUN /build.sh
