@@ -25,7 +25,8 @@ ENV NORMAL_MAIL=${NORMAL_MAIL}
 RUN apt-get update -y && apt-get upgrade -y
 RUN apt-get install php-fpm -y && apt-get install php-mysql -y && apt-get install curl -y
 
-COPY ./tools/ /
+COPY ./tools/build.sh /build.sh
+COPY ./tools/startup.sh /startup.sh
 
 RUN chmod +x /built.sh
 RUN chmod +x /startup.sh
