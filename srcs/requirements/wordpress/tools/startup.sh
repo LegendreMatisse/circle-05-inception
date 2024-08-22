@@ -10,7 +10,7 @@ wp core install --url="${DOMAIN}" --title="${TITLE}" --admin_user="${ADM_USER}" 
 
 wp user create ${NORMAL_USER} ${NORMAL_MAIL} --role=author --user_pass=${NORMAL_PASS} --allow-root || true
 
-wp thema install https://downloads.wordpress.org/theme/blocksy.2.0.16.zip --activate --allow-root || true
+wp theme install https://downloads.wordpress.org/theme/blocksy.2.0.16.zip --activate --allow-root || true
 
 mkdir -p /run/php 
 
