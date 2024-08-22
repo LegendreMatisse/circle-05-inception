@@ -6,7 +6,7 @@ if [ ! -f wp-config.php ]; then
 	wp config create --dbname=${DB_NAME} --dbuser=${ADM_USER} --dbpass=${ADM_PASS} --dbhost=${DB_HOST} --allow-root
 fi
 
-wp core install --url="${DOMAIN}" --title="${TITLE}" --admin_user="${ADM_USER}" --admin_password="${ADM_PASS}" --admin-email="${ADM_MAIL}" --skip-email --allow-root || true
+wp core install --url="${DOMAIN}" --title="${TITLE}" --admin_user="${ADM_USER}" --admin_password="${ADM_PASS}" --admin_email="${ADM_MAIL}" --skip-email --allow-root || true
 
 wp user create ${NORMAL_USER} ${NORMAL_MAIL} --role=author --user_pass=${NORMAL_PASS} --allow-root || true
 
