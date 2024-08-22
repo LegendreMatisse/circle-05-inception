@@ -25,11 +25,6 @@ ENV NORMAL_MAIL=${NORMAL_MAIL}
 RUN apt-get update -y && apt-get upgrade -y
 RUN apt-get install php-fpm -y && apt-get install php-mysql -y && apt-get install curl -y
 
-# Install WP-CLI
-RUN curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar \
-    && chmod +x wp-cli.phar \
-    && mv wp-cli.phar /usr/local/bin/wp
-
 COPY ./tools/built.sh /built.sh
 COPY ./tools/startup.sh /startup.sh
 

@@ -15,4 +15,3 @@ RUN chmod +x /built.sh
 RUN /built.sh
 
 CMD ["nginx", "-g", "daemon off;"]
-
