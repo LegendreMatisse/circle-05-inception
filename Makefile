@@ -31,6 +31,8 @@ fclean: clean
 	rm -rf /home/mlegendr/data
 
 re:
-	clean rebuild up
+	make clean
+	make rebuild
+	make up
 
 .PHONY: up build rebuild stop down logs status clean fclean re
