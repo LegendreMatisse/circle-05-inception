@@ -15,7 +15,7 @@ all:
 	@echo "$(BOLD)$(BLUE)║ $(GREEN)make build     $(RESET)$(CYAN)    # Build the containers$(RESET)        $(BOLD)$(BLUE)║$(RESET)"
 	@echo "$(BOLD)$(BLUE)║ $(GREEN)make rebuild   $(RESET)$(CYAN)    # Rebuild the containers$(RESET)      $(BOLD)$(BLUE)║$(RESET)"
 	@echo "$(BOLD)$(BLUE)║ $(RED)make stop      $(RESET)$(CYAN)    # Stop the containers$(RESET)         $(BOLD)$(BLUE)║$(RESET)"
-	@echo "$(BOLD)$(BLUE)║ $(RED)make down      $(RESET)$(CYAN)    # Bring down the containers$(RESET)     $(BOLD)$(BLUE)║$(RESET)"
+	@echo "$(BOLD)$(BLUE)║ $(RED)make down      $(RESET)$(CYAN)    # Bring down the containers$(RESET)   $(BOLD)$(BLUE)║$(RESET)"
 	@echo "$(BOLD)$(BLUE)║ $(CYAN)make logs      $(RESET)$(CYAN)    # View the logs$(RESET)               $(BOLD)$(BLUE)║$(RESET)"
 	@echo "$(BOLD)$(BLUE)║ $(CYAN)make status    $(RESET)$(CYAN)    # Check container status$(RESET)      $(BOLD)$(BLUE)║$(RESET)"
 	@echo "$(BOLD)$(BLUE)║ $(BLUE)make clean     $(RESET)$(CYAN)    # Clean temporary files$(RESET)       $(BOLD)$(BLUE)║$(RESET)"
