@@ -9,7 +9,7 @@ BOLD=\033[1m
 all:
 	@echo ""
 	@echo "$(BOLD)$(BLUE)╔══════════════════════════════════════════════════╗$(RESET)"
-	@echo "$(BOLD)$(BLUE)║      Available make commands                     ║$(RESET)"
+	@echo "$(BOLD)$(BLUE)║             Available make commands              ║$(RESET)"
 	@echo "$(BOLD)$(BLUE)╠══════════════════════════════════════════════════╣$(RESET)"
 	@echo "$(BOLD)$(BLUE)║ $(GREEN)make up        $(RESET)$(CYAN)    # Start the containers$(RESET)        $(BOLD)$(BLUE)║$(RESET)"
 	@echo "$(BOLD)$(BLUE)║ $(GREEN)make build     $(RESET)$(CYAN)    # Build the containers$(RESET)        $(BOLD)$(BLUE)║$(RESET)"
