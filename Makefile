@@ -8,9 +8,9 @@ BOLD=\033[1m
 
 all:
 	@echo ""
-	@echo "$(BOLD)$(BLUE)╔═══════════════════════════════════════════════════════════════════════════════════════════════╗$(RESET)"
-	@echo "$(BOLD)$(BLUE)║      Available make commands                                                                  ║$(RESET)"
-	@echo "$(BOLD)$(BLUE)╠═══════════════════════════════════════════════════════════════════════════════════════════════╣$(RESET)"
+	@echo "$(BOLD)$(BLUE)╔══════════════════════════════════════════════════╗$(RESET)"
+	@echo "$(BOLD)$(BLUE)║      Available make commands                     ║$(RESET)"
+	@echo "$(BOLD)$(BLUE)╠══════════════════════════════════════════════════╣$(RESET)"
 	@echo "$(BOLD)$(BLUE)║ $(GREEN)make up        $(RESET)$(CYAN)    # Start the containers$(RESET)        $(BOLD)$(BLUE)║$(RESET)"
 	@echo "$(BOLD)$(BLUE)║ $(GREEN)make build     $(RESET)$(CYAN)    # Build the containers$(RESET)        $(BOLD)$(BLUE)║$(RESET)"
 	@echo "$(BOLD)$(BLUE)║ $(GREEN)make rebuild   $(RESET)$(CYAN)    # Rebuild the containers$(RESET)      $(BOLD)$(BLUE)║$(RESET)"
@@ -21,7 +21,7 @@ all:
 	@echo "$(BOLD)$(BLUE)║ $(BLUE)make clean     $(RESET)$(CYAN)    # Clean temporary files$(RESET)       $(BOLD)$(BLUE)║$(RESET)"
 	@echo "$(BOLD)$(BLUE)║ $(BLUE)make fclean    $(RESET)$(CYAN)    # Full clean$(RESET)                  $(BOLD)$(BLUE)║$(RESET)"
 	@echo "$(BOLD)$(BLUE)║ $(YELLOW)make re        $(RESET)$(CYAN)    # Rebuild everything$(RESET)          $(BOLD)$(BLUE)║$(RESET)"
-	@echo "$(BOLD)$(BLUE)╚════════════════════════════════════════════════════════════════════════════════════════════════╝$(RESET)"
+	@echo "$(BOLD)$(BLUE)╚══════════════════════════════════════════════════╝$(RESET)"
 	@echo ""
 
 up:
